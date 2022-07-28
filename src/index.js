@@ -9,7 +9,7 @@ import { Provider } from "react-redux";
 import productsReducer, { productsFetch } from "./slices/productsSlice";
 import { productsApi } from "./slices/productsApi";
 import cartReducer, { getTotals } from "./slices/cartSlice";
-import authReducer from "./slices/authSlice";
+import authReducer, { loadUser } from "./slices/authSlice";
 
 const store = configureStore({
     reducer: {
@@ -25,6 +25,7 @@ const store = configureStore({
 
 store.dispatch(productsFetch());
 store.dispatch(getTotals());
+store.dispatch(loadUser(null));
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 

@@ -8,6 +8,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import NotFound from "./components/NotFound";
 import Register from "./components/auth/Register";
+import Login from "./components/auth/Login";
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/cart" element={<Cart />} />
                     <Route path="/register" element={<Register />} />
+                    <Route path="/login" element={<Login />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </Router>

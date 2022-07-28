@@ -1,13 +1,13 @@
 import React from "react";
-import { useSelector } from "react-redux";
 import { useGetAllProductsQuery } from "../slices/productsApi";
 import Product from "./Product";
+// import { useSelector } from "react-redux";
 
 const Home = () => {
     // Fetch data with createAsyncThunk
     // const { items, status } = useSelector((state) => state.products);
-    const auth = useSelector((state) => state.auth);
-    console.log(auth);
+    // const auth = useSelector((state) => state.auth);
+    // console.log(auth);
 
     // Fetch data with RTK Query
     const { data, error, isLoading } = useGetAllProductsQuery();
