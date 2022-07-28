@@ -40,7 +40,6 @@ const cartSlice = createSlice({
                 (item) => item.id !== action.payload.id
             );
             state.cartItems = nextCartItems;
-            // state.cartTotalQuantity--;
             localStorage.setItem("cartItems", JSON.stringify(state.cartItems));
 
             toast.error(`${action.payload.name} removed from cart`, {
