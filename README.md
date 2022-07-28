@@ -1,6 +1,6 @@
 # OnLine Shop with React, Redux Toolkit, MongoDB and Stripe.
 
-<!-- [👉🏼 let's try](https://apple-shop-dk.netlify.app/). -->
+[👉🏼 let's try](https://e-shop-rtk-dk.netlify.app/).
 
 [<img width="80px" style="margin-right: 10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/>](https://fr.reactjs.org/)&emsp;
 [<img width="80px" style="margin-right: 10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"/>](https://redux-toolkit.js.org/)&emsp;
