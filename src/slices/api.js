@@ -1,1 +1,2 @@
-export const url = "http://localhost:3001/api";
+export const url = "https://my-e-shop-api.herokuapp.com/api";
+// https://my-e-shop-api.herokuapp.com/api
