@@ -1,15 +1,15 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import { addToCart } from "../features/cartSlice";
 
 const Product = ({ product }) => {
     const dispatch = useDispatch();
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     const handleAddToCart = (product) => {
         dispatch(addToCart(product));
-        navigate("/cart");
+        // navigate("/cart");
     };
     return (
         <div className="product">
