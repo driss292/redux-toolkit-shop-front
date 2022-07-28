@@ -1,4 +1,4 @@
-# OnLine Shop with React, Redux Toolkit, Stripe and MongoDB
+# OnLine Shop with React, Redux Toolkit, MongoDB and Stripe.
 
 <!-- [👉🏼 let's try](https://apple-shop-dk.netlify.app/). -->
 
